@@ -1,0 +1,13 @@
+# main dependencies
+fastapi
+uvicorn
+
+# database / async
+databases[postgresql]
+asyncpg
+SQLAlchemy
+psycopg2-binary
+
+# dev / testing
+pytest
+httpx
