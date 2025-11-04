@@ -3,7 +3,6 @@ from fastapi import FastAPI
 from app.api import ping, notes
 from app.db import engine, database, metadata
 
-# Create tables if not exist
 metadata.create_all(engine)
 
 app = FastAPI()
